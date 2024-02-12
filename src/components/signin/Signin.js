@@ -59,7 +59,7 @@ function Signin() {
       if (response.status === 200) {
         localStorage.setItem("admin", JSON.stringify(response.data.admin));
         localStorage.setItem("token", response.data.token);
-        navigate("/");
+        navigate("/Admin/Home");
       } else {
         console.error("Failed to sign in");
         setSnackbarMessage("Failed to sign in. Please try again.");

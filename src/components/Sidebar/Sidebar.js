@@ -158,7 +158,7 @@ export default function Sidebar() {
       if (response.status === 200) {
 
         localStorage.clear();
-       navigate("/Admin/login")
+       navigate("/")
      
       } else {
         // Failed to sign out
@@ -300,7 +300,7 @@ export default function Sidebar() {
           <SidebarTab
             icon={<SpaceDashboardRoundedIcon />}
             primary="Dashboard"
-            route="/"
+            route="/Admin/Home"
           />
 
           {/* Brands */}

@@ -55,7 +55,7 @@ function App() {
       <Token /> 
         <Routes>
         <>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/Admin/Home" element={<Dashboard />} />
           <Route path="/Admin/blog" element={<BlogList />} />
           <Route path="/Admin/CreateBlog" element={<BlogCreate />} />
           <Route path="/Admin/BlogDetails/:id" element={<BlogDetails />} />
@@ -64,7 +64,7 @@ function App() {
           <Route path="/Admin/Registration" element={<Registration />} />
           <Route path="/Admin/CheckEmail" element={<CheckEmailVerifiedOrNot />} />
           <Route path="/Admin/ServiceLocations" element={<Locations />} />
-          <Route path="/Admin/login" element={<Signin />} />
+          <Route path="/" element={<Signin />} />
           <Route path="/Admin/adminSignup" element={<SignUp />} />
           <Route path="/Admin/Forgotpassword" element={<ForgotPassword />} />
           <Route path="/Admin/Changepassword" element={<Passwordchange />} />
