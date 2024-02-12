@@ -1,0 +1,84 @@
+/* EditableTable.css */
+.table {
+  width: 100%;
+  border: solid;
+  margin-bottom: 20px;
+}
+.head {
+  text-align: center;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #F2F2F2;
+  font-weight: bold;
+}
+.quantity-input {
+  width: 70px;
+}
+.delete-button {
+  background-color: #FF6666;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.custom-input {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.add-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.add-button:hover {
+  background-color: #45A049;
+}
+.top-navbar {
+  display: flex;
+  background: #00537A;
+  justify-content: space-around;
+  padding: 10px;
+}
+.category-tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #EEEEEE;
+}
+.category-tab.active {
+  background-color: #669AE1; /* Common Car Parts */
+  border-radius: 5px;
+}
+.category-tab:nth-child(2).active {
+  background-color: #70CC72;
+  border-radius: 5px;}
+.category-tab:nth-child(3).active {
+  background-color: #FE4365;
+  border-radius: 5px;
+}
+.category-tab:nth-child(4).active {
+  background-color: #C49CDE;
+  border-radius: 5px;
+}
+.category-tab:nth-child(5).active {
+  background-color: #FC913A;
+  border-radius: 5px;
+}

@@ -1,0 +1,98 @@
+.tab-container {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin: auto;
+}
+.tab-container button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px;
+  color: #555;
+}
+.tab-container button:hover {
+  background-color: #CDE1EB;
+  border-radius: 10px;
+}
+.message-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 5px;
+  margin: auto;
+  border-bottom: 1px solid rgb(228, 224, 224);
+}
+.message-container:hover {
+  background-color: #E6E2E2; /* Change this color as desired for the hover effect */
+}
+.logo-container {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.message-text {
+  flex-grow: 1;
+  font-size: 18px;
+  color: #333;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: -45px;
+}
+.accept-button,
+.decline-button,
+.reply-button {
+  font-size: 14px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.accept-button {
+  background-color: #013C58;
+  color: #fff;
+  margin-right: 10px;
+}
+.reply-button,
+.decline-button {
+  background-color: #013C58;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 14px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.decline-button {
+  background-color: #fff;
+  color: #013C58;
+  border: 1px solid #013C58;
+}
+.accept-button:hover,
+.decline-button:hover,
+.reply-button:hover {
+  background-color: #00537A;
+  color: #fff;
+}
+.message {
+  flex-grow: 1;
+  border-radius: 10px;
+}

@@ -1,0 +1,15 @@
+.right-offcanvas {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px; /* Adjust the width according to your design */
+    z-index: 1050; /* Ensure it's on top of other content */
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  
+    &.show {
+      transform: translateX(0);
+    }
+  }
+  
