@@ -55,7 +55,7 @@ function App() {
       <Token /> 
         <Routes>
         <>
-          <Route path="/Admin/Home" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="/Admin/blog" element={<BlogList />} />
           <Route path="/Admin/CreateBlog" element={<BlogCreate />} />
           <Route path="/Admin/BlogDetails/:id" element={<BlogDetails />} />

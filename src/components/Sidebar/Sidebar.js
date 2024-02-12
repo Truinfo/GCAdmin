@@ -233,7 +233,7 @@ export default function Sidebar() {
                 edge="start"
                 sx={{ color: "#FF5733" }}
               >
-                <MenuIcon />
+                <MenuIcon/>
               </IconButton>
               <h3> Admin</h3>
             </div>
@@ -300,7 +300,7 @@ export default function Sidebar() {
           <SidebarTab
             icon={<SpaceDashboardRoundedIcon />}
             primary="Dashboard"
-            route="/Admin/Home"
+            route="/"
           />
 
           {/* Brands */}

@@ -33,7 +33,7 @@ function Signin() {
 
     if (adminData && token) {
       // Redirect to Home if both admin and token are present
-      navigate("/Admin/Home");
+      navigate("/");
     }
   }, [navigate]);
 
@@ -59,7 +59,7 @@ function Signin() {
       if (response.status === 200) {
         localStorage.setItem("admin", JSON.stringify(response.data.admin));
         localStorage.setItem("token", response.data.token);
-        navigate("/Admin/Home");
+        navigate("/");
       } else {
         console.error("Failed to sign in");
         setSnackbarMessage("Failed to sign in. Please try again.");
